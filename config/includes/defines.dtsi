@@ -6,9 +6,11 @@
 
 #define ___ &trans
 #define XXX &none
+#undef SPC   // undefine deprecated ZMK alias before redefining
 #define SPC SPACE
 #define CTL LCTRL
 #define ALT LALT
+#undef GUI   // undefine deprecated ZMK alias before redefining
 #define GUI LGUI
 #define SFT LSHIFT
 #define HOMEROW LG(LS(SPACE))
